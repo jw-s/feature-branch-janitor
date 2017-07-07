@@ -1,0 +1,9 @@
+package: github.com/JoelW-S/feature-branch-janitor
+import:
+- package: github.com/kubernetes/client-go
+  version: ^3.0.0-beta.0
+- package: github.com/google/go-github
+  subpackages:
+  - github
+- package: github.com/Sirupsen/logrus
+  version: ^1.0.0
