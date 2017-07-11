@@ -13,5 +13,5 @@ spec:
     spec:
       containers:
         - name: fb-janitor 
-          image: feature-branch-janitor
+          image: feature-branch-janitor:$VERSION
           imagePullPolicy: Never
